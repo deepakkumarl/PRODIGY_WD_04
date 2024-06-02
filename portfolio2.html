@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: black;
+        }
+
+        .content-1 h3{
+            color: white;
+        }
+
+        .content-1{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-1 ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content-1 ul li {
+            margin-right: 10px; 
+        }
+
+        .content-1 ul li:last-child {
+            margin-right: 0; /
+        }
+
+        .content-1 ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .content-1 ul li a:hover{
+            background-color: burlywood;
+            color: whitesmoke;
+            padding: 5px;
+        }
+        #left h1, p, h2{
+            color: white;
+            margin: 30px;
+            padding: 10px;
+        }
+
+        #left{
+            width: 400px;
+            margin: 30px;
+            margin-top: 60px;
+        }
+
+        #left a{
+            text-decoration: underline;
+            color: azure;
+        }
+
+        #right img{
+            width: 300px;
+            background-color: white;
+            height: 800px;
+        }
+
+        #right{
+            position: absolute;
+            left: 850px;
+            bottom: 370px;
+        }
+
+        #top{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #top h1{
+            color: white;
+        }
+
+        .content-3 h3{
+            color: white;
+            display: flex;
+            justify-content: start;
+        }
+
+        #bottom{
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+        }
+
+        #bottom h1{
+            color: white;
+        }
+
+        #projects{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 80px;
+            margin-left: 50px;
+        }
+
+        #projects div img, h3, h4{
+            color: white;
+        }
+
+        .content-4{
+            margin-top: 50px;
+        }
+
+        .content-4 h2{
+            color: white;
+        }
+
+        #projects div h4{
+            color: brown;
+            text-decoration: underline;
+        }
+
+        #yes div{
+            border: 1px solid white;
+            border-radius: 150px;
+            margin: 35px;
+        }
+
+        #yes div h2{
+            position: relative;
+            left: 220px;
+        }
+
+        #yes div h3{
+            color: brown;
+            position: relative;
+            float: right;
+            bottom: 80px;
+            right: 150px
+        }
+
+        .content-6 h2{
+            text-align: center;
+            color: white;
+        }
+
+        #para h5{
+            width: 300px;
+            color: white;
+        }
+
+        #para{
+            text-align: center;
+            display: grid;
+            justify-content: center;
+        }
+
+        #formm{
+            display: flex;
+            flex-direction: column;
+        }
+
+        #formm input{
+            margin: 20px;
+            background: transparent;
+        }
+
+        #formm input:focus{
+            border: none;
+            outline: none;
+            color: white;
+            background-color: grey;
+        }
+
+        #footer h2{
+            color: brown;
+            text-align: right;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-1">
+        <h3>Portfolio</h3>
+        <ul>
+            <li><a href="#aboutt">About</a></li>
+            <li><a href="#skillss">Skills</a></li>
+            <li><a href="#projectss">Projects</a></li>
+            <li><a href="#certificatess">Certifications</a></li>
+            <li><a href="#contactt">Contact </a></li>
+        </ul>
+    </div>
+
+    <div class="content-2" id="aboutt">
+        <div id="left">
+            <h1><b>Nice To Meet you<br>I Am Deepak Kumar L</b></h1>
+            <p>Welcome to my portfolio! I am a passionate web developer with a keen interest in creating dynamic and responsive web applications. With a solid foundation in HTML, CSS, and JavaScript, I strive to deliver high-quality projects that meet client needs and exceed expectations.</p>
+            
+            <h2><a href="#contactt">Contact Me</a></h2>
+        </div>
+
+        <div id="right">
+            <img src="#" alt="image">
+        </div>
+    </div>
+    <hr>
+
+    <div class="content-3" id="skillss">
+        <h2>Skills</h2>
+        <div id="top">
+            <h1>HTML</h1><br><br>
+            <p>INTERMEDIATE</p>
+            <h1>CSS</h1>
+            <p>INTERMEDIATE</p>
+            <h1>JAVASCRIPT</h1>
+            <p>BEGINNER</p>
+        </div>
+
+        <div id="bottom">
+            <h1>FIGMA</h1>
+            <p>INTERMEDIATE</p>
+            <h1>REACT</h1>
+            <p>BEGINNER</p>
+            <h1>MONGO</h1>
+            <p>BEGINNER</p>
+        </div>
+    </div>
+    <hr>
+
+    <div class="content-4" id="projectss">
+        <h2>PROJECTS</h2>
+        <div id="projects">
+            <div id="one">
+                <img src="#" alt="project1">
+                <h3>TO DO LIST</h3>
+                <h4>View Project</h4><h4>View code</h4>
+            </div>
+
+            <div id="two">
+                <img src="#" alt="project2">
+                <h3>SIMPLE CALCULATOR</h3>
+                <h4>View Project</h4><h4>View code</h4>
+            </div>
+
+            <div id="three">
+                <img src="#" alt="project1">
+                <h3>PASSWORD GENERATOR</h3>
+                <h4>View Project</h4><h4>View code</h4>
+            </div>
+
+            <div id="four">
+                <img src="#" alt="project4">
+                <h3>SLOGAN GENERATOR</h3>
+                <h4>View Project</h4><h4>View code</h4>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="content-5" id="certificatess">
+        <h2>CERTIFICATES</h2>
+        <div id="yes">
+            <div>
+                <h2>COMPLETE FULLSTACK COURSE (udemy)</h2>
+                <h3>View Certificate</h3>
+            </div>
+
+            <div>
+                <h2>INTODUCTION TO NETWORKING (cisco)</h2>
+                <h3> View Certificate</h3>
+            </div>
+
+            <div>
+                <h2>COMPLETE WORDPRESS COURSE (udemy)</h2>
+                <h3>View Certificate</h3>
+            </div>
+
+            <div>
+                <h2>DATA SCIENCE BOOTCAMP (udemy)</h2>
+                <h3>View Certificate</h3>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="content-6" id="contactt">
+        <h2>CONTACT</h2>
+        <div id="para">
+            <h5>If you would like to get in touch, please fill out the form below with your name, email, and phone number. I look forward to hearing from you and will get back to you as soon as possible!</h5>
+        </div>
+
+        <div id="formm">
+            <input type="text" placeholder="Enter your name" id="name">
+            <input type="email" placeholder="Enter your Email" id="email">
+            <input type="text" placeholder="Enter your Number" id="number">
+            <button onclick="submitForm()">Submit</button>
+        </div>
+    </div>
+    <hr>
+   
+    <script>
+        function submitForm() {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var number = document.getElementById('number').value;
+
+            if (name === '' || email === '' || number === '') {
+                alert('All fields are required!');
+                return;
+            }
+
+            var emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (!email.match(emailPattern)) {
+                alert('Please enter a valid email address!');
+                return;
+            }
+
+            if (isNaN(number) || number.length < 10) {
+                alert('Please enter a valid phone number!');
+                return;
+            }
+
+            alert('I will connect with you soon , ' + name + '!' );
+        }
+    </script>
+</body>
+</html>
